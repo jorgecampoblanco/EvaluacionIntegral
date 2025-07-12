@@ -14,6 +14,14 @@ En esta etapa se planteó el wireframe con la estructura del sitio. Se definió 
 Se trabajó en el diseño visual aplicando una paleta oscura con acentos en azul, celeste y coral, y se eligió una tipografía de internet para lograr un estilo moderno y armonioso. Se implementó la estructura en HTML y CSS, integrando las imágenes y el menú funcional.
 
 💫 Etapa 4: Animaciones y detalles finales
-En la última etapa se añadieron animaciones y efectos para hacer el sitio más atractivo. Se incluyó un slider dinámico con slick.js, animaciones en el título principal con cambios de color, efectos hover en botones, tarjetas de servicios e imágenes del portafolio, y un scroll suave para mejorar la navegación entre secciones.
+Se añadieron animaciones y efectos para hacer el sitio más atractivo. Se incluyó un slider dinámico con slick.js, animaciones en el título principal con cambios de color, efectos hover en botones, tarjetas de servicios e imágenes del portafolio, y un scroll suave para mejorar la navegación entre secciones.
+
+🔧 Etapa 5: Ajustes de código finales
+
+Se integró Slick Slider en la sección de Testimonios con configuración JavaScript ($('.slick-slider').slick({...})), habilitando autoplay, dots y flechas adaptativas.
+Se estilizó cada slide con CSS: fondo semitransparente, borde dorado, sombra profunda y flechas personalizadas para un look profesional.
+Se amplió la sección FAQ a cinco preguntas, manteniendo el acordeón Bootstrap y vinculando cada botón a su collapse.
+Se añadieron tres nuevas animaciones CSS (rebotarHero, equipoFadeUp, vibrar)
+Se ajustó el orden de carga de scripts (jQuery antes de Slick) y se validó el scroll suave para enlaces internos, garantizando compatibilidad y rendimiento en todos los dispositivos.
 
 Este proyecto representó una valiosa oportunidad para aplicar los conocimientos adquiridos durante el curso, combinando diseño, estructura, animaciones y funcionalidad en un sitio web completo. Agradezco el tiempo y las recomendaciones brindadas por el docente, que fueron fundamentales para mejorar el resultado final.
